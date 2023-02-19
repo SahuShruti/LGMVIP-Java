@@ -12,9 +12,9 @@ public class ScientificCalculator extends JFrame implements ActionListener {
     static double m1, m2;
     int k=1, x=0, y=0, z=0;
     char ch;
-    JButton b1, b2, b3, b4, b5, b6, b7, b8, b9, zero, clr, pow1, pow2, exp, fac, plus, div, min, log, rec, mul, eq, addSub, dot, mr, mc, mp, mm, sqrt, sin, cos, tan;
+    JButton b1, b2, b3, b4, b5, b6, b7, b8, b9, zero, clr, pow1, pow2, pow3, exp, fac, plus, div, min, log, rec, mul, eq, addSub, dot, mr, mc, mp, mm, sqrt, sin, cos, tan;
     Container cont;
-    JPanel textPanel, buttopanel;
+    JPanel textPanel, buttonpanel;
 
     ScientificCalculator(){
         cont = getContentPane();
